@@ -1,0 +1,2 @@
+GDP growth (annual %) : https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG
+Urban population (% of total population) : https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS
