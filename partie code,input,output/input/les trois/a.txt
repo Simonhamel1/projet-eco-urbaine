@@ -1,0 +1,2 @@
+Urban population (% of total population) - France, China, United States https://data.worldbank.org/indicator/SP.URB.GROW?locations=FR-CN-US
+Croissance de la population urbaine ( % annuel) - France, Chine, États-Unis https://data.worldbank.org/indicator/SP.URB.TOTL.IN.ZS?locations=FR-CN-US
