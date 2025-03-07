@@ -1,0 +1,116 @@
+Introduction (environ 2‑3 minutes)
+
+Bonjour à toutes et à tous. Aujourd’hui, nous allons explorer la question suivante : « L’urbanisation est‑elle corrélée à la croissance économique ? ».
+
+Pour bien comprendre l’enjeu, il faut d’abord rappeler un fait marquant : depuis les grandes révolutions industrielles, la part de la population vivant en ville n’a cessé de croître, et ce phénomène s’est accompagné, dans de nombreux pays, d’une hausse du PIB par habitant. Pourquoi ? Quels mécanismes peuvent expliquer que la concentration des populations dans les villes coïncide souvent avec le développement économique ?
+
+D’un côté, l’émergence d’industries et de services a historiquement attiré les gens vers les centres urbains, ce que l’on nomme parfois l’exode rural. Cette transformation structurelle a contribué à faire augmenter la productivité, les salaires et in fine la richesse produite au niveau national. De l’autre côté, les villes elles‑mêmes, grâce aux forces d’agglomération (par exemple la possibilité de partager des infrastructures, de mieux faire correspondre l’offre et la demande de travail, ou de favoriser la diffusion de l’innovation), stimulent la productivité et alimentent la croissance. On voit donc se dessiner deux sens de causalité : la croissance attire les populations en ville, tout en étant nourrie, à son tour, par l’urbanisation.
+
+Dans cette présentation, nous tenterons de répondre à la problématique : « Comment mesurer, grâce à des données empiriques, la corrélation entre le niveau d’urbanisation et la croissance économique ? ». Nous rappellerons d’abord quelques éléments de théorie et des études majeures sur le sujet, avant de montrer notre propre analyse de données issues de la Banque mondiale. Nous verrons enfin quelles conclusions nous pouvons tirer des résultats, et quelles limites subsistent lorsqu’on cherche à démêler les causes et les conséquences de l’urbanisation.
+
+Mon objectif, au cours de cette intervention, est donc de vous présenter de manière claire et synthétique l’articulation entre théorie et données, afin de comprendre pourquoi la question de l’urbanisation — qui peut sembler purement démographique — est en réalité au cœur du développement économique.
+
+2. Contexte théorique et revue de la littérature (≈ 3‑4 minutes)
+
+Pour éclairer la problématique de l’urbanisation et de la croissance, il est utile de rappeler quelques mécanismes centraux issus de l’économie urbaine et du développement :
+	1.	Les forces d’agglomération (sharing, matching, learning)
+	•	Sharing : Les entreprises et les ménages partagent plus facilement des infrastructures communes (transports, réseaux, services spécialisés) en zone urbaine, ce qui limite certains coûts fixes.
+	•	Matching : Dans une grande ville, il y a davantage d’employeurs et d’employés, ce qui facilite l’appariement sur le marché du travail, surtout pour des emplois qualifiés.
+	•	Learning : La densité urbaine accélère la diffusion des connaissances et favorise l’innovation. De multiples secteurs cohabitent, et des échanges formels ou informels (réunions, cafés, clusters) peuvent stimuler la productivité.
+	2.	La transformation structurelle et l’exode rural
+	•	Avec l’industrialisation, puis le développement des services, de nombreux pays ont vu leurs emplois se concentrer dans les agglomérations, attirant progressivement la population rurale.
+	•	À mesure que la production agricole devient plus efficace, la main‑d’œuvre excédentaire se redirige vers les secteurs urbains où la valeur ajoutée par travailleur est plus élevée, ce qui contribue à la croissance globale.
+	3.	Études empiriques existantes
+	•	De nombreux travaux, comme ceux de Combes, Duranton et Gobillon (2008), soulignent que les salaires sont en général plus élevés dans les grandes villes, même une fois qu’on contrôle le niveau d’éducation ou le type d’emploi.
+	•	Les recherches de Roca et Puga (2017) montrent que travailler dans une métropole procure des gains de productivité durables : même après avoir quitté la grande ville, un individu conserve une partie des compétences et du réseau acquis.
+	4.	Ambiguïté de la causalité
+	•	D’un côté, la croissance (industrialisation, essor du tertiaire) attire la population vers les villes.
+	•	De l’autre, la concentration des activités alimente cette croissance par l’effet de productivité (agglomération).
+	•	Il s’agit donc d’un cercle potentiellement vertueux, dans lequel il est difficile de départager la part de causalité directe exercée par l’urbanisation.
+
+Ces éléments théoriques nous incitent à examiner empiriquement dans quelle mesure l’urbanisation et le PIB/hab sont liés, sans toutefois confondre corrélation et causalité.
+
+
+3. Données et méthodologie (≈ 5‑6 minutes)
+
+3.1 Sources de données
+	•	Banque mondiale :
+	•	Urban population (% of total) (SP.URB.TOTL.IN.ZS), c’est‑à‑dire le pourcentage de la population vivant dans des zones considérées comme urbaines.
+	•	GDP per capita (NY.GDP.PCAP.CD), exprimé en dollars courants.
+	•	Vous pouvez également mentionner des données issues de l’INSEE (pour un focus sur la France) ou d’autres institutions si vous élargissez la comparaison.
+
+3.2 Collecte et préparation
+	•	Téléchargement : Vous avez récupéré ces indicateurs pour un panel de pays (par exemple sur la période 2000‑2020) au format CSV.
+	•	Nettoyage :
+	•	Élimination des valeurs manquantes ou aberrantes.
+	•	Conversion des années en variables numériques, sélection d’un sous‑ensemble de pays si besoin.
+	•	Structure de vos dossiers :
+	•	Un dossier inputs contenant les fichiers sources.
+	•	Un dossier code (fichiers .py ou .ipynb) clairement commentés, pour la reproductibilité.
+	•	Un dossier outputs regroupant les graphiques ou tableaux finaux.
+
+3.3 Méthodes d’analyse
+	1.	Approche descriptive :
+	•	Construction d’un scatter plot (nuage de points) montrant la relation entre Urban_Pop_Pct (axe x) et GDP_per_capita (axe y) pour une année donnée.
+	•	Observation de la tendance (linéaire, exponentielle, etc.).
+	2.	Analyse statistique :
+	•	Corrélation (Pearson) : permet de mesurer la force du lien linéaire entre urbanisation et PIB/hab.
+	•	Régression linéaire simple :
+
+\ln(\text{PIB/hab}_i) = \alpha + \beta \,\text{UrbanPop}_i + \varepsilon_i
+
+où \text{UrbanPop}_i est le pourcentage urbain du pays i.
+	•	Dans un second temps, vous pouvez envisager des contrôles (taux d’alphabétisation, régions du monde), ou même un modèle de données de panel sur plusieurs années pour peaufiner l’analyse.
+	3.	Code Python (ou R) :
+	•	Import de pandas (ou dplyr en R),
+	•	Fusion des données,
+	•	Calcul de la corrélation,
+	•	Estimation du modèle de régression (librairie statsmodels en Python, ou lm en R).
+	•	S’assurer que le code est commenté et facilement exécutable.
+
+Cette méthodologie vous permet d’obtenir des indicateurs simples (corrélation, coefficient de régression) tout en visualisant clairement la relation entre urbanisation et PIB/hab.
+
+
+4. Résultats empiriques et discussion (≈ 3‑5 minutes)
+
+4.1 Présentation des graphiques et statistiques
+	1.	Graphique 1 : Scatter plot pour une année donnée
+	•	Abscisses : taux d’urbanisation.
+	•	Ordonnées : PIB/hab (souvent en log pour mieux visualiser les écarts).
+	•	Souvent, on observe une pente positive : plus un pays est urbanisé, plus son PIB/hab tend à être élevé.
+	2.	Graphique 2 : Évolution temporelle
+	•	Un diagramme linéaire montrant, pour un pays ou un groupe de pays, comment la part urbaine et le PIB/hab ont évolué de 2000 à 2020.
+	•	Vous illustrez visuellement la tendance conjointe à la hausse.
+	3.	Statistiques clés
+	•	Corrélation positive (par ex. 0,6 ou 0,7) selon les échantillons.
+	•	Coefficient de régression \beta : par exemple, une augmentation de 10 points de pourcentage de la population urbaine pourrait être associée à une hausse de X % du PIB/hab (tout dépend des spécificités de l’échantillon).
+
+4.2 Interprétations et limites
+	•	Forces d’agglomération : Les résultats confirment l’existence d’une relation quantitative entre urbanisation et richesse produite, en ligne avec la théorie.
+	•	Causalité : Rappelez que la corrélation ne prouve pas que l’urbanisation cause à elle seule la croissance. Il faut prendre en compte la transformation structurelle et d’autres déterminants (institutions, éducation, politique économique…).
+	•	Hétérogénéité régionale : Certains pays d’Amérique latine ou d’Afrique ont un taux d’urbanisation élevé sans avoir un PIB/hab très élevé, ce qui nuance le propos.
+	•	Sélection des données : Si vous n’avez retenu que certains pays ou une période limitée, vos résultats peuvent être biaisés ou ne pas être généralisables.
+
+Ainsi, la relation trouvée est clairement positive dans la plupart des cas, mais elle ne peut être interprétée comme une causalité directe dans un seul sens.
+
+
+ et ouverture (≈ 2‑3 minutes)
+
+Pour conclure, nous avons cherché à déterminer si l’urbanisation est corrélée à la croissance économique. Les données empiriques (issues notamment de la Banque mondiale) suggèrent bel et bien une corrélation positive entre la part de la population vivant en zone urbaine et le niveau de PIB par habitant.
+
+Cette constatation s’explique à la fois par les forces d’agglomération (qui rendent les villes plus productives) et par la transformation structurelle (les populations se dirigent vers les villes lorsque l’économie se développe). La causalité se révèle donc bidirectionnelle : la croissance favorise l’urbanisation, et celle‑ci peut en retour amplifier la productivité.
+
+Néanmoins, nous devons garder à l’esprit les limites de cette analyse : la simple corrélation ne permet pas de trancher sur l’ampleur de la causalité. Pour aller plus loin, il serait intéressant d’utiliser des modèles de panel (plusieurs pays sur de nombreuses années), avec des variables instrumentales ou des effets fixes, afin de mieux isoler le rôle propre de l’urbanisation. On pourrait également examiner les différences internes à un même pays (régions plus ou moins urbanisées) pour comprendre l’effet local de la densité de population sur la croissance.
+
+En somme, l’urbanisation apparaît comme un phénomène étroitement lié au développement économique. Qu’il s’agisse de l’exode rural historique en Europe ou de la forte urbanisation actuelle en Asie et en Afrique, l’expérience montre que la concentration urbaine et la croissance se soutiennent mutuellement, même si de nombreux défis (congestion, pollution, inégalités) viennent nuancer la simple équation « plus de villes = plus de richesse ».
+
+Je vous remercie de votre attention, et je reste à disposition pour d’éventuelles questions.
+
+
+
+Bibliographie / Références (exemple succinct)
+	•	Combes, P.‑P., Duranton, G. & Gobillon, L. (2008). Spatial wage disparities: Sorting matters!. Journal of Urban Economics, 63(2), 723‑742.
+	•	Roca, J. de la & Puga, D. (2017). Learning by working in big cities. The Review of Economic Studies, 84(1), 106‑142.
+	•	Banque mondiale : data.worldbank.org (indicateurs SP.URB.TOTL.IN.ZS et NY.GDP.PCAP.CD).
+
+(Adaptez ou complétez cette bibliographie selon vos sources réelles. Veillez à bien citer le cours, les articles et les sites utilisés.)
