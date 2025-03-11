@@ -1,0 +1,27 @@
+MCO multiple : Urbanisation + Education -> PIB
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.573
+Model:                            OLS   Adj. R-squared:                  0.572
+Method:                 Least Squares   F-statistic:                     1769.
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):               0.00
+Time:                        00:05:14   Log-Likelihood:                -3631.9
+No. Observations:                2643   AIC:                             7270.
+Df Residuals:                    2640   BIC:                             7287.
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -4.9306      0.357    -13.821      0.000      -5.630      -4.231
+log_Urbanization     1.7810      0.040     44.497      0.000       1.702       1.859
+log_Education        1.3454      0.089     15.043      0.000       1.170       1.521
+==============================================================================
+Omnibus:                       49.647   Durbin-Watson:                   1.723
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               52.205
+Skew:                           0.343   Prob(JB):                     4.61e-12
+Kurtosis:                       2.954   Cond. No.                         118.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

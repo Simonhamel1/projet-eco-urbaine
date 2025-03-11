@@ -1,0 +1,26 @@
+MCO simple : Urbanisation -> PIB
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.521
+Model:                            OLS   Adj. R-squared:                  0.521
+Method:                 Least Squares   F-statistic:                     8673.
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):               0.00
+Time:                        00:05:11   Log-Likelihood:                -12071.
+No. Observations:                7985   AIC:                         2.415e+04
+Df Residuals:                    7983   BIC:                         2.416e+04
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -0.1715      0.090     -1.916      0.055      -0.347       0.004
+log_Urbanization     2.1311      0.023     93.131      0.000       2.086       2.176
+==============================================================================
+Omnibus:                       82.695   Durbin-Watson:                   1.597
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               70.753
+Skew:                           0.172   Prob(JB):                     4.33e-16
+Kurtosis:                       2.693   Cond. No.                         30.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

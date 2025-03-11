@@ -1,0 +1,162 @@
+MCO simple : Urbanisation -> PIB pour France:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.758
+Model:                            OLS   Adj. R-squared:                  0.752
+Method:                 Least Squares   F-statistic:                     131.3
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):           1.64e-14
+Time:                        00:05:12   Log-Likelihood:                0.87861
+No. Observations:                  44   AIC:                             2.243
+Df Residuals:                      42   BIC:                             5.811
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              -42.4951      4.596     -9.247      0.000     -51.769     -33.221
+log_Urbanization    12.1366      1.059     11.461      0.000       9.999      14.274
+==============================================================================
+Omnibus:                        3.696   Durbin-Watson:                   0.171
+Prob(Omnibus):                  0.158   Jarque-Bera (JB):                3.167
+Skew:                          -0.559   Prob(JB):                        0.205
+Kurtosis:                       2.308   Cond. No.                         574.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MCO simple : Urbanisation -> PIB pour États-Unis:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.979
+Model:                            OLS   Adj. R-squared:                  0.978
+Method:                 Least Squares   F-statistic:                     1853.
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):           4.01e-35
+Time:                        00:05:13   Log-Likelihood:                 52.368
+No. Observations:                  42   AIC:                            -100.7
+Df Residuals:                      40   BIC:                            -97.26
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              -44.8569      1.285    -34.918      0.000     -47.453     -42.261
+log_Urbanization    12.6765      0.295     43.041      0.000      12.081      13.272
+==============================================================================
+Omnibus:                        5.829   Durbin-Watson:                   0.189
+Prob(Omnibus):                  0.054   Jarque-Bera (JB):                5.840
+Skew:                          -0.412   Prob(JB):                       0.0539
+Kurtosis:                       4.630   Cond. No.                         536.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MCO simple : Urbanisation -> PIB pour Chine:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.974
+Model:                            OLS   Adj. R-squared:                  0.974
+Method:                 Least Squares   F-statistic:                     1605.
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):           4.30e-35
+Time:                        00:05:13   Log-Likelihood:                 2.2794
+No. Observations:                  44   AIC:                           -0.5588
+Df Residuals:                      42   BIC:                             3.010
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -6.6989      0.350    -19.132      0.000      -7.406      -5.992
+log_Urbanization     3.8574      0.096     40.057      0.000       3.663       4.052
+==============================================================================
+Omnibus:                        3.812   Durbin-Watson:                   0.117
+Prob(Omnibus):                  0.149   Jarque-Bera (JB):                1.806
+Skew:                           0.136   Prob(JB):                        0.405
+Kurtosis:                       2.046   Cond. No.                         38.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MCO simple : Urbanisation -> PIB pour Nigéria:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.360
+Model:                            OLS   Adj. R-squared:                  0.344
+Method:                 Least Squares   F-statistic:                     23.58
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):           1.70e-05
+Time:                        00:05:13   Log-Likelihood:                -29.688
+No. Observations:                  44   AIC:                             63.38
+Df Residuals:                      42   BIC:                             66.95
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                2.2071      1.014      2.176      0.035       0.160       4.254
+log_Urbanization     1.3691      0.282      4.856      0.000       0.800       1.938
+==============================================================================
+Omnibus:                        0.284   Durbin-Watson:                   0.420
+Prob(Omnibus):                  0.867   Jarque-Bera (JB):                0.469
+Skew:                           0.112   Prob(JB):                        0.791
+Kurtosis:                       2.546   Cond. No.                         53.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MCO simple : Urbanisation -> PIB pour Brésil:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.773
+Model:                            OLS   Adj. R-squared:                  0.768
+Method:                 Least Squares   F-statistic:                     143.3
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):           4.01e-15
+Time:                        00:05:13   Log-Likelihood:                -13.325
+No. Observations:                  44   AIC:                             30.65
+Df Residuals:                      42   BIC:                             34.22
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const              -22.4485      2.580     -8.702      0.000     -27.655     -17.242
+log_Urbanization     7.0619      0.590     11.972      0.000       5.871       8.252
+==============================================================================
+Omnibus:                        0.826   Durbin-Watson:                   0.301
+Prob(Omnibus):                  0.662   Jarque-Bera (JB):                0.843
+Skew:                          -0.151   Prob(JB):                        0.656
+Kurtosis:                       2.393   Cond. No.                         235.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+MCO simple : Urbanisation -> PIB pour Soudan:
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.200
+Model:                            OLS   Adj. R-squared:                  0.181
+Method:                 Least Squares   F-statistic:                     10.51
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):            0.00233
+Time:                        00:05:13   Log-Likelihood:                -32.344
+No. Observations:                  44   AIC:                             68.69
+Df Residuals:                      42   BIC:                             72.26
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const                1.4299      1.567      0.913      0.367      -1.732       4.592
+log_Urbanization     1.4865      0.458      3.242      0.002       0.561       2.412
+==============================================================================
+Omnibus:                        2.430   Durbin-Watson:                   0.536
+Prob(Omnibus):                  0.297   Jarque-Bera (JB):                1.516
+Skew:                          -0.183   Prob(JB):                        0.469
+Kurtosis:                       2.168   Cond. No.                         74.6
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
