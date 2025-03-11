@@ -1,0 +1,212 @@
+Country Name,Country Code,Capital
+Aruba,ABW,Oranjestad
+Afghanistan,AFG,Kabul
+Angola,AGO,Luanda
+Albania,ALB,Tirane
+Andorra,AND,Andorra la Vella
+United Arab Emirates,ARE,Abu Dhabi
+Argentina,ARG,Buenos Aires
+Armenia,ARM,Yerevan
+American Samoa,ASM,Pago Pago
+Antigua and Barbuda,ATG,Saint John's
+Australia,AUS,Canberra
+Austria,AUT,Vienna
+Azerbaijan,AZE,Baku
+Burundi,BDI,Bujumbura
+Belgium,BEL,Brussels
+Benin,BEN,Porto-Novo
+Burkina Faso,BFA,Ouagadougou
+Bangladesh,BGD,Dhaka
+Bulgaria,BGR,Sofia
+Bahrain,BHR,Manama
+"Bahamas, The",BHS,Nassau
+Bosnia and Herzegovina,BIH,Sarajevo
+Belarus,BLR,Minsk
+Belize,BLZ,Belmopan
+Bermuda,BMU,Hamilton
+Bolivia,BOL,La Paz
+Brazil,BRA,Brasilia
+Barbados,BRB,Bridgetown
+Brunei Darussalam,BRN,Bandar Seri Begawan
+Bhutan,BTN,Thimphu
+Botswana,BWA,Gaborone
+Central African Republic,CAF,Bangui
+Canada,CAN,Ottawa
+Switzerland,CHE,Bern
+Chile,CHL,Santiago
+China,CHN,Beijing
+Cote d'Ivoire,CIV,Yamoussoukro
+Cameroon,CMR,Yaounde
+"Congo, Dem. Rep.",COD,Kinshasa
+"Congo, Rep.",COG,Brazzaville
+Colombia,COL,Bogota
+Comoros,COM,Moroni
+Cabo Verde,CPV,Praia
+Costa Rica,CRI,San Jose
+Cuba,CUB,Havana
+Curacao,CUW,Willemstad
+Cayman Islands,CYM,George Town
+Cyprus,CYP,Nicosia
+Czechia,CZE,Prague
+Germany,DEU,Berlin
+Djibouti,DJI,Djibouti
+Dominica,DMA,Roseau
+Denmark,DNK,Copenhagen
+Dominican Republic,DOM,Santo Domingo
+Algeria,DZA,Algiers
+Ecuador,ECU,Quito
+"Egypt, Arab Rep.",EGY,Cairo
+Eritrea,ERI,Asmara
+Spain,ESP,Madrid
+Estonia,EST,Tallinn
+Ethiopia,ETH,Addis Ababa
+Finland,FIN,Helsinki
+Fiji,FJI,Suva
+France,FRA,Paris
+Faroe Islands,FRO,Torshavn
+"Micronesia, Fed. Sts.",FSM,Palikir
+Gabon,GAB,Libreville
+United Kingdom,GBR,London
+Georgia,GEO,Tbilisi
+Ghana,GHA,Accra
+Guinea,GIN,Conakry
+"Gambia, The",GMB,Banjul
+Guinea-Bissau,GNB,Bissau
+Equatorial Guinea,GNQ,Malabo
+Greece,GRC,Athens
+Grenada,GRD,Saint George's
+Greenland,GRL,Nuuk
+Guatemala,GTM,Guatemala City
+Guam,GUM,Agana
+Guyana,GUY,Georgetown
+Honduras,HND,Tegucigalpa
+Croatia,HRV,Zagreb
+Haiti,HTI,Port-au-Prince
+Hungary,HUN,Budapest
+Indonesia,IDN,Jakarta
+Isle of Man,IMN,Douglas
+India,IND,New Delhi
+Ireland,IRL,Dublin
+"Iran, Islamic Rep.",IRN,Tehran
+Iraq,IRQ,Baghdad
+Iceland,ISL,Reykjavik
+Italy,ITA,Rome
+Jamaica,JAM,Kingston
+Jordan,JOR,Amman
+Japan,JPN,Tokyo
+Kazakhstan,KAZ,Astana
+Kenya,KEN,Nairobi
+Kyrgyz Republic,KGZ,Bishkek
+Cambodia,KHM,Phnom Penh
+Kiribati,KIR,Tarawa
+St. Kitts and Nevis,KNA,Basseterre
+"Korea, Rep.",KOR,Seoul
+Kuwait,KWT,Kuwait City
+Lao PDR,LAO,Vientiane
+Lebanon,LBN,Beirut
+Liberia,LBR,Monrovia
+Libya,LBY,Tripoli
+St. Lucia,LCA,Castries
+Liechtenstein,LIE,Vaduz
+Sri Lanka,LKA,Colombo
+Lesotho,LSO,Maseru
+Lithuania,LTU,Vilnius
+Luxembourg,LUX,Luxembourg
+Latvia,LVA,Riga
+St. Martin (French part),MAF,Marigot
+Morocco,MAR,Rabat
+Monaco,MCO,Monaco
+Moldova,MDA,Chisinau
+Madagascar,MDG,Antananarivo
+Maldives,MDV,Male
+Mexico,MEX,Mexico City
+Marshall Islands,MHL,Majuro
+North Macedonia,MKD,Skopje
+Mali,MLI,Bamako
+Malta,MLT,Valletta
+Myanmar,MMR,Naypyidaw
+Montenegro,MNE,Podgorica
+Mongolia,MNG,Ulaanbaatar
+Northern Mariana Islands,MNP,Saipan
+Mozambique,MOZ,Maputo
+Mauritania,MRT,Nouakchott
+Mauritius,MUS,Port Louis
+Malawi,MWI,Lilongwe
+Malaysia,MYS,Kuala Lumpur
+Namibia,NAM,Windhoek
+New Caledonia,NCL,Noum'ea
+Niger,NER,Niamey
+Nigeria,NGA,Abuja
+Nicaragua,NIC,Managua
+Netherlands,NLD,Amsterdam
+Norway,NOR,Oslo
+Nepal,NPL,Kathmandu
+Nauru,NRU,Yaren District
+New Zealand,NZL,Wellington
+Oman,OMN,Muscat
+Pakistan,PAK,Islamabad
+Panama,PAN,Panama City
+Peru,PER,Lima
+Philippines,PHL,Manila
+Palau,PLW,Koror
+Papua New Guinea,PNG,Port Moresby
+Poland,POL,Warsaw
+Puerto Rico,PRI,San Juan
+"Korea, Dem. People's Rep.",PRK,Pyongyang
+Portugal,PRT,Lisbon
+Paraguay,PRY,Asuncion
+French Polynesia,PYF,Papeete
+Qatar,QAT,Doha
+Romania,ROU,Bucharest
+Russian Federation,RUS,Moscow
+Rwanda,RWA,Kigali
+Saudi Arabia,SAU,Riyadh
+Sudan,SDN,Khartoum
+Senegal,SEN,Dakar
+Singapore,SGP,Singapore
+Solomon Islands,SLB,Honiara
+Sierra Leone,SLE,Freetown
+El Salvador,SLV,San Salvador
+San Marino,SMR,San Marino
+Somalia,SOM,Mogadishu
+Serbia,SRB,Belgrade
+South Sudan,SSD,Juba
+Sao Tome and Principe,STP,Sao Tome
+Suriname,SUR,Paramaribo
+Slovak Republic,SVK,Bratislava
+Slovenia,SVN,Ljubljana
+Sweden,SWE,Stockholm
+Eswatini,SWZ,Mbabane
+Sint Maarten (Dutch part),SXM,Philipsburg
+Seychelles,SYC,Victoria
+Syrian Arab Republic,SYR,Damascus
+Turks and Caicos Islands,TCA,Grand Turk
+Chad,TCD,N'Djamena
+Togo,TGO,Lome
+Thailand,THA,Bangkok
+Tajikistan,TJK,Dushanbe
+Turkmenistan,TKM,Ashgabat
+Timor-Leste,TLS,Dili
+Tonga,TON,Nuku'alofa
+Trinidad and Tobago,TTO,Port-of-Spain
+Tunisia,TUN,Tunis
+Turkiye,TUR,Ankara
+Tuvalu,TUV,Funafuti
+Tanzania,TZA,Dodoma
+Uganda,UGA,Kampala
+Ukraine,UKR,Kiev
+Uruguay,URY,Montevideo
+United States,USA,Washington D.C.
+Uzbekistan,UZB,Tashkent
+St. Vincent and the Grenadines,VCT,Kingstown
+"Venezuela, RB",VEN,Caracas
+British Virgin Islands,VGB,Road Town
+Virgin Islands (U.S.),VIR,Charlotte Amalie
+Viet Nam,VNM,Hanoi
+Vanuatu,VUT,Port-Vila
+Samoa,WSM,Apia
+Kosovo,XKX,Pristina
+"Yemen, Rep.",YEM,Sana'a
+South Africa,ZAF,Pretoria
+Zambia,ZMB,Lusaka
+Zimbabwe,ZWE,Harare
