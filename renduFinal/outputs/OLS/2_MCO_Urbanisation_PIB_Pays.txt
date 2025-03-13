@@ -5,7 +5,7 @@ Dep. Variable:     log_GDP_per_capita   R-squared:                       0.758
 Model:                            OLS   Adj. R-squared:                  0.752
 Method:                 Least Squares   F-statistic:                     131.3
 Date:                Wed, 12 Mar 2025   Prob (F-statistic):           1.64e-14
-Time:                        00:05:12   Log-Likelihood:                0.87861
+Time:                        21:24:06   Log-Likelihood:                0.87861
 No. Observations:                  44   AIC:                             2.243
 Df Residuals:                      42   BIC:                             5.811
 Df Model:                           1                                         
@@ -32,7 +32,7 @@ Dep. Variable:     log_GDP_per_capita   R-squared:                       0.979
 Model:                            OLS   Adj. R-squared:                  0.978
 Method:                 Least Squares   F-statistic:                     1853.
 Date:                Wed, 12 Mar 2025   Prob (F-statistic):           4.01e-35
-Time:                        00:05:13   Log-Likelihood:                 52.368
+Time:                        21:24:06   Log-Likelihood:                 52.368
 No. Observations:                  42   AIC:                            -100.7
 Df Residuals:                      40   BIC:                            -97.26
 Df Model:                           1                                         
@@ -59,7 +59,7 @@ Dep. Variable:     log_GDP_per_capita   R-squared:                       0.974
 Model:                            OLS   Adj. R-squared:                  0.974
 Method:                 Least Squares   F-statistic:                     1605.
 Date:                Wed, 12 Mar 2025   Prob (F-statistic):           4.30e-35
-Time:                        00:05:13   Log-Likelihood:                 2.2794
+Time:                        21:24:07   Log-Likelihood:                 2.2794
 No. Observations:                  44   AIC:                           -0.5588
 Df Residuals:                      42   BIC:                             3.010
 Df Model:                           1                                         
@@ -86,7 +86,7 @@ Dep. Variable:     log_GDP_per_capita   R-squared:                       0.360
 Model:                            OLS   Adj. R-squared:                  0.344
 Method:                 Least Squares   F-statistic:                     23.58
 Date:                Wed, 12 Mar 2025   Prob (F-statistic):           1.70e-05
-Time:                        00:05:13   Log-Likelihood:                -29.688
+Time:                        21:24:07   Log-Likelihood:                -29.688
 No. Observations:                  44   AIC:                             63.38
 Df Residuals:                      42   BIC:                             66.95
 Df Model:                           1                                         
@@ -106,28 +106,28 @@ Kurtosis:                       2.546   Cond. No.                         53.6
 Notes:
 [1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
 
-MCO simple : Urbanisation -> PIB pour Brésil:
+MCO simple : Urbanisation -> PIB pour Malawi:
                             OLS Regression Results                            
 ==============================================================================
-Dep. Variable:     log_GDP_per_capita   R-squared:                       0.773
-Model:                            OLS   Adj. R-squared:                  0.768
-Method:                 Least Squares   F-statistic:                     143.3
-Date:                Wed, 12 Mar 2025   Prob (F-statistic):           4.01e-15
-Time:                        00:05:13   Log-Likelihood:                -13.325
-No. Observations:                  44   AIC:                             30.65
-Df Residuals:                      42   BIC:                             34.22
+Dep. Variable:     log_GDP_per_capita   R-squared:                       0.559
+Model:                            OLS   Adj. R-squared:                  0.549
+Method:                 Least Squares   F-statistic:                     53.33
+Date:                Wed, 12 Mar 2025   Prob (F-statistic):           5.38e-09
+Time:                        21:24:07   Log-Likelihood:                -5.6471
+No. Observations:                  44   AIC:                             15.29
+Df Residuals:                      42   BIC:                             18.86
 Df Model:                           1                                         
 Covariance Type:            nonrobust                                         
 ====================================================================================
                        coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------------
-const              -22.4485      2.580     -8.702      0.000     -27.655     -17.242
-log_Urbanization     7.0619      0.590     11.972      0.000       5.871       8.252
+const                1.8254      0.559      3.268      0.002       0.698       2.953
+log_Urbanization     1.5524      0.213      7.303      0.000       1.123       1.981
 ==============================================================================
-Omnibus:                        0.826   Durbin-Watson:                   0.301
-Prob(Omnibus):                  0.662   Jarque-Bera (JB):                0.843
-Skew:                          -0.151   Prob(JB):                        0.656
-Kurtosis:                       2.393   Cond. No.                         235.
+Omnibus:                        5.866   Durbin-Watson:                   0.501
+Prob(Omnibus):                  0.053   Jarque-Bera (JB):                4.732
+Skew:                          -0.766   Prob(JB):                       0.0939
+Kurtosis:                       3.483   Cond. No.                         39.6
 ==============================================================================
 
 Notes:
@@ -140,7 +140,7 @@ Dep. Variable:     log_GDP_per_capita   R-squared:                       0.200
 Model:                            OLS   Adj. R-squared:                  0.181
 Method:                 Least Squares   F-statistic:                     10.51
 Date:                Wed, 12 Mar 2025   Prob (F-statistic):            0.00233
-Time:                        00:05:13   Log-Likelihood:                -32.344
+Time:                        21:24:07   Log-Likelihood:                -32.344
 No. Observations:                  44   AIC:                             68.69
 Df Residuals:                      42   BIC:                             72.26
 Df Model:                           1                                         

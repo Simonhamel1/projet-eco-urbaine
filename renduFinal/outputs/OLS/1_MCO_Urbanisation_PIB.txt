@@ -5,7 +5,7 @@ Dep. Variable:     log_GDP_per_capita   R-squared:                       0.521
 Model:                            OLS   Adj. R-squared:                  0.521
 Method:                 Least Squares   F-statistic:                     8673.
 Date:                Wed, 12 Mar 2025   Prob (F-statistic):               0.00
-Time:                        00:05:11   Log-Likelihood:                -12071.
+Time:                        21:24:04   Log-Likelihood:                -12071.
 No. Observations:                7985   AIC:                         2.415e+04
 Df Residuals:                    7983   BIC:                         2.416e+04
 Df Model:                           1                                         
